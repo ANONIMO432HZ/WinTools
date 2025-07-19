@@ -132,6 +132,7 @@
 
 ### 🖥️ Menú Principal
 ![Menú Principal](screenshots/main_menu.png)
+
 *Interfaz principal de WinTools con el logo ASCII y las 6 opciones principales*
 
 ### 🔧 Gestión de Arranque y Recuperación
@@ -416,7 +417,7 @@ Ver [`CREDITS.md`](CREDITS.md) para más detalles sobre los créditos.
 
 <div align="center">
 
-### ⭐ **¿Te gustó WinTools?**
+### ⭐ **¿Te gustó y te sirvió de ayuda WinTools?**
 
 ¡Dale una estrella al proyecto y compártelo con otros!
 
