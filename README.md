@@ -80,8 +80,8 @@
 
 ### 📦 Última Versión Estable
 
-- **Windows 32-bit**: [WinTools_x32.exe](https://github.com/ANONIMO432HZ/WinTools/releases/latest/download/WinTools_x32.exe)
-- **Windows 64-bit**: [WinTools_x64.exe](https://github.com/ANONIMO432HZ/WinTools/releases/latest/download/WinTools_x64.exe)
+- **Windows 32-bit**: [WinTools_1.0.0.1_x86.exe](https://github.com/ANONIMO432HZ/WinTools/releases/latest/download/WinTools_1.0.0.1_x86.exe) **✅ Firmado Digitalmente**
+- **Windows 64-bit**: [WinTools_1.0.0.1_x64.exe](https://github.com/ANONIMO432HZ/WinTools/releases/latest/download/WinTools_1.0.0.1_x64.exe) **✅ Firmado Digitalmente**
 - **Script Original**: [WinTools.bat](https://github.com/ANONIMO432HZ/WinTools/raw/main/WinTools.bat)
 
 ### 📋 Instalación
@@ -139,8 +139,8 @@ Los ejecutables pueden ser detectados por Windows Defender. Ver [SOLUCION_ANTIVI
 
 #### ⚠️ **Ejecutables (.exe) - PUEDEN SER DETECTADOS**
 - **Archivos**: 
-  - `WinTools_x32.exe` (versión 32-bit)
-  - `WinTools_x64.exe` (versión 64-bit)
+  - `WinTools_1.0.0.1_x86.exe` (versión 32-bit, firmado digitalmente)
+- `WinTools_1.0.0.1_x64.exe` (versión 64-bit, firmado digitalmente)
 - **Convertidor**: Bat To Exe Converter
 - **Problema**: Windows Defender puede detectarlos como amenazas
 - **Solución**: Ver [`SOLUCION_ANTIVIRUS.md`](SOLUCION_ANTIVIRUS.md)
@@ -323,8 +323,8 @@ La aplicación presenta un menú principal con 6 opciones principales:
 **Versión Actual:** v1.0.0.1
 
 **Ejecutables Disponibles:**
-- [WinTools_1.0.0.1_x64.exe](https://github.com/ANONIMO432HZ/WinTools/releases/download/v1.0.0/WinTools_1.0.0.1_x64.exe) (232KB) - Windows 64-bit **✅ Firmado Digitalmente**
-- [WinTools_1.0.0.1_x86.exe](https://github.com/ANONIMO432HZ/WinTools/releases/download/v1.0.0/WinTools_1.0.0.1_x86.exe) (199KB) - Windows 32-bit **✅ Firmado Digitalmente**
+- [WinTools_1.0.0.1_x64.exe](https://github.com/ANONIMO432HZ/WinTools/releases/download/v1.0.0.1/WinTools_1.0.0.1_x64.exe) (232KB) - Windows 64-bit **✅ Firmado Digitalmente**
+- [WinTools_1.0.0.1_x86.exe](https://github.com/ANONIMO432HZ/WinTools/releases/download/v1.0.0.1/WinTools_1.0.0.1_x86.exe) (199KB) - Windows 32-bit **✅ Firmado Digitalmente**
 
 **Instalación:**
 1. Descarga el ejecutable correspondiente a tu sistema

@@ -43,11 +43,11 @@ Este proyecto utiliza e integra varios scripts y herramientas externas. A contin
 - **Autor**: Bat To Exe Converter Team
 - **Sitio Web**: https://www.battoexeconverter.com/
 - **Descripción**: Herramienta para convertir scripts batch (.bat) a ejecutables (.exe)
-- **Uso en WinTools**: Conversión de WinTools.bat a WinTools_x32.exe y WinTools_x64.exe
+- **Uso en WinTools**: Conversión de WinTools.bat a WinTools_1.0.0.1_x86.exe y WinTools_1.0.0.1_x64.exe
 - **Licencia**: Propietaria (uso gratuito)
 - **Archivos generados**: 
-  - `WinTools_x32.exe` (versión 32-bit)
-  - `WinTools_x64.exe` (versión 64-bit)
+  - `WinTools_1.0.0.1_x86.exe` (versión 32-bit, firmado digitalmente)
+- `WinTools_1.0.0.1_x64.exe` (versión 64-bit, firmado digitalmente)
 
 ---
 
@@ -149,8 +149,8 @@ Este proyecto utiliza e integra varios scripts y herramientas externas. A contin
   - Personalización de iconos
 - **Uso en WinTools**: Generación de ejecutables para distribución
 - **Archivos generados**:
-  - `WinTools_x32.exe` (192 KB, 32-bit)
-  - `WinTools_x64.exe` (225 KB, 64-bit)
+  - `WinTools_1.0.0.1_x86.exe` (199 KB, 32-bit, firmado digitalmente)
+- `WinTools_1.0.0.1_x64.exe` (232 KB, 64-bit, firmado digitalmente)
 - **Nota**: Los ejecutables pueden ser detectados por antivirus como falsos positivos
 
 ### **Archivos Generados por WinTools**
@@ -162,12 +162,12 @@ Este proyecto utiliza e integra varios scripts y herramientas externas. A contin
   - **Uso**: Recomendado para uso diario
 
 #### **Ejecutables Convertidos**
-- **WinTools_x32.exe** (192 KB)
+- **WinTools_1.0.0.1_x86.exe** (199 KB, firmado digitalmente)
   - **Arquitectura**: 32-bit (x86)
   - **Compatibilidad**: Windows 7/8/10/11 (32-bit y 64-bit)
   - **Convertidor**: Bat To Exe Converter
 
-- **WinTools_x64.exe** (225 KB)
+- **WinTools_1.0.0.1_x64.exe** (232 KB, firmado digitalmente)
   - **Arquitectura**: 64-bit (x64)
   - **Compatibilidad**: Windows 7/8/10/11 (64-bit)
   - **Convertidor**: Bat To Exe Converter

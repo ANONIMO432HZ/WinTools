@@ -122,8 +122,8 @@ Los ejecutables ahora incluyen certificados digitales:
 ```bash
 # Calcular hash del archivo
 certutil -hashfile WinTools.bat SHA256
-certutil -hashfile WinTools_x32.exe SHA256
-certutil -hashfile WinTools_x64.exe SHA256
+certutil -hashfile WinTools_1.0.0.1_x86.exe SHA256
+certutil -hashfile WinTools_1.0.0.1_x64.exe SHA256
 ```
 
 ### 📋 **Hash Verificados**
