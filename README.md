@@ -137,18 +137,22 @@
 
 ### 🔧 Gestión de Arranque y Recuperación
 ![Gestión de Arranque](screenshots/boot_recovery_menu.png)
+
 *Menú de gestión de arranque con opciones para modo seguro y BIOS/UEFI*
 
 ### 🛠️ Herramientas del Sistema y Administración
 ![Herramientas del Sistema](screenshots/system_admin_menu.png)
+
 *Acceso directo a 14 herramientas administrativas de Windows*
 
 ### 📊 Información y Licencias
 ![Información y Licencias](screenshots/info_license_menu.png)
+
 *Herramientas de diagnóstico e información del sistema*
 
 ### ⚡ Optimización y Limpieza
 ![Optimización y Limpieza](screenshots/optimization_menu.png)
+
 *Scripts de optimización de rendimiento y eliminación de bloatware*
 
 ### 🚀 Scripts Externos Integrados
