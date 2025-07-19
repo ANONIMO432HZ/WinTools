@@ -1,0 +1,102 @@
+===============================================================================
+                            WINTOOLS - INSTRUCCIONES RÁPIDAS
+===============================================================================
+
+🎯 ¿QUÉ ES WINTOOLS?
+WinTools es una colección de herramientas de administración y optimización 
+para Windows que combina múltiples utilidades del sistema en una interfaz 
+unificada y fácil de usar.
+
+🚀 INSTALACIÓN RÁPIDA:
+1. Descarga el proyecto desde GitHub
+2. Ejecuta WinTools.bat como administrador
+3. ¡Listo! El script solicitará privilegios automáticamente
+
+📋 MENÚS PRINCIPALES:
+
+[1] GESTIÓN DE ARRANQUE Y RECUPERACIÓN
+   • Reinicio en modo normal
+   • Reinicio a modo seguro (con/sin red)
+   • Acceso a opciones avanzadas de inicio
+   • Reinicio al BIOS/UEFI
+
+[2] HERRAMIENTAS DEL SISTEMA Y ADMINISTRACIÓN
+   • Administrador de Certificados
+   • Directivas de Grupo Local
+   • Variables de Entorno
+   • Configuración del Sistema
+   • Servicios
+   • Conexiones de Red
+   • Administrador de Dispositivos
+   • Administrador de Discos
+   • Opciones de Energía
+   • Configuración de Fecha y Hora
+   • Programas y Características
+   • Cuentas de Usuario Avanzadas
+   • Programas Predeterminados
+   • Carpeta de Aplicaciones
+
+[3] UTILIDADES Y MANTENIMIENTO
+   • Escaneo Rápido con Windows Defender
+   • Obtener Claves de Recuperación de BitLocker
+   • Instalador de programas desatendido (CTT)
+   • Abrir instalador de programas (Ninite)
+   • Teclado en Pantalla (OSK)
+   • Grabador de Pasos (PSR)
+   • Limpieza de Disco (cleanmgr)
+   • Explorador en Unidad C:\
+
+[4] INFORMACIÓN Y LICENCIAS
+   • Activador (Massgrave)
+   • Ver Versión de Windows
+   • Diagnóstico de DirectX
+   • Información del Sistema
+   • Reporte de Batería
+   • Caducidad de Licencia de Windows
+   • Información Detallada de Licencia
+
+[5] OPTIMIZACIÓN Y LIMPIEZA
+   • Optimización de Rendimiento (Script PowerShell)
+   • Eliminar Bloatware (debloat)
+
+[6] ENLACES
+   • Abrir Perfil de GitHub del Creador
+
+🎮 CONTROLES:
+• Números: Selecciona opciones del menú
+• 99: Volver al menú principal
+• 0: Salir del programa
+• Pausa: Esperar confirmación del usuario
+
+⚠️ IMPORTANTE:
+• Ejecuta siempre como administrador
+• Algunas funciones requieren conexión a internet
+• Respeta las licencias de los scripts externos
+• Lee la documentación completa en README.md
+
+🔧 REQUISITOS:
+• Windows 10 o superior
+• Privilegios de administrador
+• Conexión a internet (para algunas funciones)
+
+📞 SOPORTE:
+• GitHub: https://github.com/ANONIMO432HZ/WinTools
+• Email: usuario432hz@gmail.com
+• Issues: https://github.com/ANONIMO432HZ/WinTools/issues
+
+📄 LICENCIA:
+Este proyecto está bajo la Licencia GNU GPLv3.
+Ver LICENSE para más detalles.
+
+🙏 CRÉDITOS:
+Este proyecto utiliza scripts externos de:
+• Chris Titus Tech
+• Ninite
+• Massgrave
+• Windows10Debloater
+
+Ver CREDITS.md para más detalles.
+
+===============================================================================
+                    ¡Disfruta usando WinTools!
+=============================================================================== 
