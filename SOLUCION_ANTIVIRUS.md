@@ -40,18 +40,26 @@ WinTools.bat
 
 ### 🛡️ **Opción 2: Agregar Excepción en Windows Defender**
 
-#### Paso 1: Abrir Windows Defender
+#### Paso 1: Abrir Windows Security (Windows Defender)
+**Método 1 - Desde Configuración:**
 1. Presiona `Windows + I` para abrir Configuración
-2. Ve a **Actualización y seguridad** > **Windows Defender**
-3. Haz clic en **Configuración de Windows Defender**
+2. Ve a **Privacidad y seguridad** > **Windows Security**
+3. Haz clic en **Abrir Windows Security**
+
+**Método 2 - Directo:**
+1. Presiona `Windows + R`
+2. Escribe `windowsdefender://` y presiona Enter
+3. O busca "Windows Security" en el menú inicio
 
 #### Paso 2: Agregar Excepción
-1. Desplázate hacia abajo hasta **Exclusiones**
-2. Haz clic en **Agregar o quitar exclusiones**
-3. Haz clic en **Agregar una exclusión**
-4. Selecciona **Archivo**
-5. Navega hasta tu ejecutable de WinTools
-6. Selecciona el archivo y haz clic en **Abrir**
+1. En Windows Security, haz clic en **Protección contra virus y amenazas**
+2. Desplázate hacia abajo y haz clic en **Configuración de Protección contra virus y amenazas**
+3. Desplázate hacia abajo hasta **Exclusiones**
+4. Haz clic en **Agregar o quitar exclusiones**
+5. Haz clic en **Agregar una exclusión**
+6. Selecciona **Archivo**
+7. Navega hasta tu ejecutable de WinTools
+8. Selecciona el archivo y haz clic en **Abrir**
 
 #### Paso 3: Verificar
 1. Ejecuta el archivo nuevamente
@@ -75,6 +83,24 @@ Convertir el batch a PowerShell script:
 # Ejecutar con: powershell -ExecutionPolicy Bypass -File WinTools.ps1
 ```
 
+### 🔧 **Opción 5: Métodos Rápidos Alternativos**
+
+#### **Método A: Desde el Menú Inicio**
+1. Busca "Windows Security" en el menú inicio
+2. Haz clic en **Protección contra virus y amenazas**
+3. Sigue los pasos de exclusión
+
+#### **Método B: Desde la Bandeja del Sistema**
+1. Busca el ícono de Windows Security en la bandeja del sistema
+2. Haz clic derecho y selecciona **Abrir**
+3. Ve a **Protección contra virus y amenazas**
+
+#### **Método C: Usando el Comando Directo**
+1. Presiona `Windows + R`
+2. Escribe: `ms-settings:windowsdefender`
+3. Presiona Enter
+4. Haz clic en **Abrir Windows Security**
+
 ## 📋 **Instrucciones Paso a Paso**
 
 ### 🎯 **Método Recomendado (Script Original)**
@@ -97,12 +123,13 @@ Convertir el batch a PowerShell script:
 
 ### 🛡️ **Método Alternativo (Excepción)**
 
-1. **Abre Windows Defender**:
-   - `Windows + I` > Actualización y seguridad > Windows Defender
+1. **Abre Windows Security**:
+   - `Windows + I` > Privacidad y seguridad > Windows Security
+   - O presiona `Windows + R`, escribe `windowsdefender://` y presiona Enter
 
 2. **Agrega exclusión**:
-   - Configuración de Windows Defender > Exclusiones
-   - Agregar exclusión > Archivo
+   - Protección contra virus y amenazas > Configuración de Protección contra virus y amenazas
+   - Exclusiones > Agregar o quitar exclusiones > Agregar una exclusión > Archivo
    - Seleccionar tu ejecutable
 
 3. **Prueba el ejecutable**:
@@ -169,6 +196,34 @@ Convertir el batch a PowerShell script:
 3. **Mantén actualizado** Windows Defender
 4. **Reporta falsos positivos** a Microsoft
 5. **Comparte experiencias** con la comunidad
+
+## ⚠️ **Notas Importantes**
+
+### 🔄 **Diferencias por Versión de Windows**
+
+#### **Windows 10/11 (Versiones Modernas)**
+- Usa **Windows Security** (nuevo nombre)
+- Ruta: Configuración > Privacidad y seguridad > Windows Security
+- Comando directo: `windowsdefender://`
+
+#### **Windows 8.1/10 (Versiones Antiguas)**
+- Usa **Windows Defender** (nombre anterior)
+- Ruta: Configuración > Actualización y seguridad > Windows Defender
+- Comando directo: `ms-settings:windowsdefender`
+
+### 🆘 **Si No Encuentras las Opciones**
+
+1. **Verifica tu versión de Windows**:
+   - Presiona `Windows + R`
+   - Escribe `winver` y presiona Enter
+
+2. **Usa el método más simple**:
+   - Busca "Windows Security" o "Windows Defender" en el menú inicio
+   - O usa el comando directo: `windowsdefender://`
+
+3. **Alternativa temporal**:
+   - Usa el script original `WinTools.bat` (recomendado)
+   - No requiere configuraciones de antivirus
 
 ---
 
