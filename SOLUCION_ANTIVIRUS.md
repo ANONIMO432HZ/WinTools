@@ -4,6 +4,8 @@
 
 Los ejecutables convertidos de scripts batch (.bat a .exe) son frecuentemente detectados como amenazas por Windows Defender y otros antivirus. Esto es normal y esperado debido a la naturaleza de los convertidores de batch a exe.
 
+> ✅ **MEJORA IMPLEMENTADA**: Los ejecutables v1.0.0.1 ahora incluyen **certificados digitales autofirmados** que reducen significativamente las detecciones falsas.
+
 ## 🔍 ¿Por qué Ocurre Esto?
 
 ### 🚨 Razones de Detección:
@@ -17,6 +19,8 @@ Los ejecutables convertidos de scripts batch (.bat a .exe) son frecuentemente de
 - **SÍ**: Solo ejecuta comandos legítimos de Windows
 - **SÍ**: No contiene código malicioso
 - **SÍ**: Es código abierto y transparente
+- **SÍ**: Los ejecutables v1.0.0.1 incluyen certificados digitales
+- **SÍ**: Los certificados verifican la integridad del archivo
 
 ## 🛠️ Soluciones
 
@@ -65,13 +69,30 @@ WinTools.bat
 1. Ejecuta el archivo nuevamente
 2. Windows Defender no debería detectarlo como amenaza
 
-### 🔧 **Opción 3: Firmar Digitalmente el Ejecutable**
+### 🔧 **Opción 3: Verificar Certificados Digitales (v1.0.0.1)**
 
-**Para desarrolladores avanzados:**
+**Los ejecutables v1.0.0.1 ya incluyen certificados digitales:**
 
-1. **Obtener un certificado de código** (requiere inversión)
-2. **Firmar el ejecutable** con el certificado
-3. **Distribuir el ejecutable firmado**
+1. **Verificar firma digital**:
+   - Clic derecho en el ejecutable → Propiedades → Firma digital
+   - Verificar que aparece "Firmado digitalmente"
+
+2. **Verificar con comandos**:
+   ```bash
+   # Verificar firma digital
+   signtool verify /pa WinTools_1.0.0.1_x64.exe
+   signtool verify /pa WinTools_1.0.0.1_x86.exe
+   
+   # Ver detalles del certificado
+   certutil -dump WinTools_1.0.0.1_x64.exe
+   certutil -dump WinTools_1.0.0.1_x86.exe
+   ```
+
+3. **Beneficios de los certificados**:
+   - ✅ Reducción de falsos positivos
+   - ✅ Mayor confianza del sistema
+   - ✅ Verificación de integridad
+   - ✅ Menos advertencias de seguridad
 
 ### 🔧 **Opción 4: Usar PowerShell Script**
 

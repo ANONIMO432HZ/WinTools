@@ -7,7 +7,29 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.h
 
 ---
 
-## [1.0.0] - 2025-01-XX
+## [1.0.0.1] - 2025-01-18
+
+### 🔐 Mejora de Seguridad
+
+#### ✨ Agregado
+- **Certificados Digitales**: Ejecutables firmados digitalmente
+- **Verificación de Integridad**: Certificados autofirmados para mayor seguridad
+- **Nuevos Nombres**: WinTools_1.0.0.1_x86.exe y WinTools_1.0.0.1_x64.exe
+
+#### 🔧 Mejorado
+- **Seguridad**: Reducción de falsos positivos de antivirus
+- **Confianza**: Mayor confianza del sistema operativo
+- **Documentación**: Actualización de EJECUTABLES.md con información de certificados
+
+#### 📊 Cambios Técnicos
+- **Tamaño x86**: 192KB → 199KB (+7KB por certificado)
+- **Tamaño x64**: 225KB → 232KB (+7KB por certificado)
+- **Certificados**: Firmas digitales incluidas
+- **Verificación**: Comandos para verificar certificados documentados
+
+---
+
+## [1.0.0] - 2025-01-18
 
 ### 🎉 Lanzamiento Inicial
 

@@ -318,21 +318,42 @@ La aplicación presenta un menú principal con 6 opciones principales:
 
 ---
 
+## 🚀 Descarga Rápida
+
+**Versión Actual:** v1.0.0.1
+
+**Ejecutables Disponibles:**
+- [WinTools_1.0.0.1_x64.exe](https://github.com/ANONIMO432HZ/WinTools/releases/download/v1.0.0/WinTools_1.0.0.1_x64.exe) (232KB) - Windows 64-bit **✅ Firmado Digitalmente**
+- [WinTools_1.0.0.1_x86.exe](https://github.com/ANONIMO432HZ/WinTools/releases/download/v1.0.0/WinTools_1.0.0.1_x86.exe) (199KB) - Windows 32-bit **✅ Firmado Digitalmente**
+
+**Instalación:**
+1. Descarga el ejecutable correspondiente a tu sistema
+2. Ejecuta como administrador
+3. ¡Listo! No requiere instalación adicional
+
+> ✅ **Mejora:** Los ejecutables ahora incluyen certificados digitales autofirmados para mayor seguridad y menor detección por antivirus.
+
+---
+
 ## 📁 Estructura del Proyecto
 
 ```
 WinTools/
-├── 🛠️ WinTools.bat           # Script principal (RECOMENDADO)
-├── 💻 WinTools_x32.exe       # Ejecutable 32-bit (puede ser detectado)
-├── 💻 WinTools_x64.exe       # Ejecutable 64-bit (puede ser detectado)
-├── 📖 README.md              # Documentación principal
-├── 📄 LICENSE                # Licencia GNU GPLv3
-├── 🙏 CREDITS.md             # Créditos a scripts externos
-├── 📋 CHANGELOG.md           # Historial de cambios
-├── 🛡️ SOLUCION_ANTIVIRUS.md  # Solución para problemas de antivirus
-├── 🚫 .gitignore             # Archivos ignorados
-├── 📁 screenshots/           # Capturas de pantalla
-└── 📁 docs/                  # Documentación adicional
+├── 🛠️ WinTools.bat                    # Script principal (RECOMENDADO)
+├── 💻 release-files/                  # Carpeta con ejecutables firmados
+│   ├── WinTools_1.0.0.1_x64.exe      # Ejecutable 64-bit firmado (232KB)
+│   └── WinTools_1.0.0.1_x86.exe      # Ejecutable 32-bit firmado (199KB)
+├── 📖 README.md                       # Documentación principal
+├── 📄 LICENSE                         # Licencia GNU GPLv3
+├── 🙏 CREDITS.md                      # Créditos a scripts externos
+├── 📋 CHANGELOG.md                    # Historial de cambios
+├── 🛡️ SOLUCION_ANTIVIRUS.md           # Solución para problemas de antivirus
+├── 💻 EJECUTABLES.md                  # Información sobre ejecutables
+├── 🚫 .gitignore                      # Archivos ignorados
+├── 📁 screenshots/                    # Capturas de pantalla
+└── 📚 Documentación adicional
+    ├── INSTRUCCIONES_RAPIDAS.txt
+    └── SUGGESTIONS.md
 ```
 
 ---
