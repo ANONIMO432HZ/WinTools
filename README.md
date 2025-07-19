@@ -76,6 +76,26 @@
 
 ---
 
+## 🚀 Descarga Rápida
+
+### 📦 Última Versión Estable
+
+- **Windows 32-bit**: [WinTools_x32.exe](https://github.com/ANONIMO432HZ/WinTools/releases/latest/download/WinTools_x32.exe)
+- **Windows 64-bit**: [WinTools_x64.exe](https://github.com/ANONIMO432HZ/WinTools/releases/latest/download/WinTools_x64.exe)
+- **Script Original**: [WinTools.bat](https://github.com/ANONIMO432HZ/WinTools/raw/main/WinTools.bat)
+
+### 📋 Instalación
+
+1. **Descarga** el archivo correspondiente a tu sistema
+2. **Ejecuta como administrador** (clic derecho → "Ejecutar como administrador")
+3. **¡Listo!** El programa solicitará privilegios automáticamente
+
+### ⚠️ Nota sobre Antivirus
+
+Los ejecutables pueden ser detectados por Windows Defender. Ver [SOLUCION_ANTIVIRUS.md](SOLUCION_ANTIVIRUS.md) para soluciones.
+
+---
+
 ## 🚀 Instalación Rápida
 
 ### 📋 Requisitos del Sistema
